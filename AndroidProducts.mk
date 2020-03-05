@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_j4primelte.mk
+    $(LOCAL_DIR)/bootleg_j4primelte.mk
+
+COMMON_LUNCH_CHOICES := \
+    bootleg_j4primelte-user \
+    bootleg_j4primelte-userdebug \
+    bootleg_j4primelte-eng
